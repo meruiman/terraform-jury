@@ -1,4 +1,4 @@
-#resource "aws_iam_user" "lb" {
+resource "aws_iam_user" "lb" {
   name = "hello"
 }
 resource "aws_iam_user" "lb1" {
